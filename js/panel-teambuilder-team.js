@@ -167,7 +167,7 @@ if(!num)return null;
 
 var top=Math.floor(num/12)*30;
 var left=num%12*40;
-var iconStyle="background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-sheet.png) no-repeat scroll -"+left+"px -"+top+"px";
+var iconStyle="background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-sheet.png) no-repeat scroll -"+left+"px -"+top+"px";
 
 return preact.h("span",{"class":"picon",style:"top:"+(
 prevOffset+1)+"px;left:50px;position:absolute;"+iconStyle}

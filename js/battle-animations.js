@@ -584,7 +584,7 @@ bg='sprites/gen6bgs/'+BattleBackdrops[this.numericId%BattleBackdrops.length];
 
 this.backdropImage=bg;
 if(this.$bg){
-this.$bg.css('background-image','url(http://raw.githubusercontent.com/'+this.backdropImage+')');
+this.$bg.css('background-image','url(https://raw.githubusercontent.com/sprites/master/'+this.backdropImage+')');
 }
 };_proto.
 
@@ -840,9 +840,9 @@ if(pokemon.level!==100){
 buf2+='<span style="text-shadow:#000 1px 1px 0,#000 1px -1px 0,#000 -1px 1px 0,#000 -1px -1px 0"><small>L</small>'+pokemon.level+'</span>';
 }
 if(pokemon.item==='(mail)'){
-buf2+=' <img src="http://raw.githubusercontent.com/fx/mail.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
+buf2+=' <img src="https://raw.githubusercontent.com/sprites/master/fx/mail.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
 }else if(pokemon.item){
-buf2+=' <img src="http://raw.githubusercontent.com/fx/item.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
+buf2+=' <img src="https://raw.githubusercontent.com/sprites/master/fx/item.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
 }
 buf2+='</div>';
 }
@@ -1368,7 +1368,7 @@ this.addSideCondition(siden,_id4,true);
 
 typeAnim=function typeAnim(pokemon,types){
 var result=BattleLog.escapeHTML(types).split('/').map(function(type){return(
-'<img src="http://raw.githubusercontent.com/sprites/types/'+type+'.png" alt="'+type+'" class="pixelated" />');}
+'<img src="https://raw.githubusercontent.com/sprites/master/sprites/types/'+type+'.png" alt="'+type+'" class="pixelated" />');}
 ).join(' ');
 this.resultAnim(pokemon,result,'neutral');
 };_proto.
@@ -2696,10 +2696,10 @@ if(pokemon.speciesForme.indexOf('-Mega')>=0)symbol='mega';else
 if(pokemon.speciesForme==='Kyogre-Primal')symbol='alpha';else
 if(pokemon.speciesForme==='Groudon-Primal')symbol='omega';
 if(symbol){
-buf+=" <img src=\""+Dex.resourcePrefix+"sprites/misc/"+symbol+".png\" alt=\""+symbol+"\" style=\"vertical-align:text-bottom;\" />";
+buf+=" <img src=\"https://raw.githubusercontent.com/sprites/master/sprites/misc/"+symbol+".png\" alt=\""+symbol+"\" style=\"vertical-align:text-bottom;\" />";
 }
 if(pokemon.terastallized){
-buf+=" <img src=\""+Dex.resourcePrefix+"sprites/types/Tera"+pokemon.terastallized+".png\" alt=\"Tera-"+pokemon.terastallized+"\" style=\"vertical-align:text-bottom;\" height=\"16\" width=\"16\" />";
+buf+=" <img src=\"https://raw.githubusercontent.com/sprites/master/sprites/types/Tera"+pokemon.terastallized+".png\" alt=\"Tera-"+pokemon.terastallized+"\" style=\"vertical-align:text-bottom;\" height=\"16\" width=\"16\" />";
 }
 
 buf+="</strong><div class=\"hpbar\"><div class=\"hptext\"></div><div class=\"hptextborder\"></div><div class=\"prevhp\"><div class=\"hp\"></div></div><div class=\"status\"></div>";
@@ -2776,16 +2776,16 @@ status+='<span class="par">PAR</span> ';
 status+='<span class="frz">FRZ</span> ';
 }
 if(pokemon.terastallized){
-status+="<img src=\""+Dex.resourcePrefix+"sprites/types/"+encodeURIComponent(pokemon.terastallized)+".png\" alt=\""+pokemon.terastallized+"\" class=\"pixelated\" /> ";
+status+="<img src=\"https://raw.githubusercontent.com/sprites/master/sprites/types/"+encodeURIComponent(pokemon.terastallized)+".png\" alt=\""+pokemon.terastallized+"\" class=\"pixelated\" /> ";
 }else if(pokemon.volatiles.typechange&&pokemon.volatiles.typechange[1]){
 var types=pokemon.volatiles.typechange[1].split('/');for(var _i32=0;_i32<
 types.length;_i32++){var type=types[_i32];
-status+='<img src="http://raw.githubusercontent.com/sprites/types/'+encodeURIComponent(type)+'.png" alt="'+type+'" class="pixelated" /> ';
+status+='<img src="https://raw.githubusercontent.com/sprites/master/sprites/types/'+encodeURIComponent(type)+'.png" alt="'+type+'" class="pixelated" /> ';
 }
 }
 if(pokemon.volatiles.typeadd){
 var _type=pokemon.volatiles.typeadd[1];
-status+='+<img src="http://raw.githubusercontent.com/sprites/types/'+_type+'.png" alt="'+_type+'" class="pixelated" /> ';
+status+='+<img src="https://raw.githubusercontent.com/sprites/master/sprites/types/'+_type+'.png" alt="'+_type+'" class="pixelated" /> ';
 }
 for(var stat in pokemon.boosts){
 if(pokemon.boosts[stat]){

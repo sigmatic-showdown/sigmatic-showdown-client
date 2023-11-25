@@ -706,13 +706,13 @@ return num;
 
 getPokemonIcon=function getPokemonIcon(pokemon,facingLeft){var _pokemon,_pokemon2,_pokemon3,_pokemon4,_pokemon5;
 if(pokemon==='pokeball'){
-return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -0px 4px";
+return"background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -0px 4px";
 }else if(pokemon==='pokeball-statused'){
-return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -40px 4px";
+return"background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -40px 4px";
 }else if(pokemon==='pokeball-fainted'){
-return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -80px 4px;opacity:.4;filter:contrast(0)";
+return"background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -80px 4px;opacity:.4;filter:contrast(0)";
 }else if(pokemon==='pokeball-none'){
-return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -80px 4px";
+return"background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -80px 4px";
 }
 
 var id=toID(pokemon);
@@ -731,7 +731,7 @@ var num=this.getPokemonIconNum(id,((_pokemon4=pokemon)==null?void 0:_pokemon4.ge
 var top=Math.floor(num/12)*30;
 var left=num%12*40;
 var fainted=(_pokemon5=pokemon)!=null&&_pokemon5.fainted?";opacity:.3;filter:grayscale(100%) brightness(.5)":"";
-return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-sheet.png?v15) no-repeat scroll -"+left+"px -"+top+"px"+fainted;
+return"background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/pokemonicons-sheet.png?v15) no-repeat scroll -"+left+"px -"+top+"px"+fainted;
 };_proto2.
 
 getTeambuilderSpriteData=function getTeambuilderSpriteData(pokemon){var gen=arguments.length>1&&arguments[1]!==undefined?arguments[1]:0;
@@ -795,14 +795,14 @@ if((_item=item)!=null&&_item.spritenum)num=item.spritenum;
 
 var top=Math.floor(num/16)*24;
 var left=num%16*24;
-return'background:transparent url(http://raw.githubusercontent.com/sprites/itemicons-sheet.png?v1) no-repeat scroll -'+left+'px -'+top+'px';
+return'background:transparent url(https://raw.githubusercontent.com/sprites/master/sprites/itemicons-sheet.png?v1) no-repeat scroll -'+left+'px -'+top+'px';
 };_proto2.
 
 getTypeIcon=function getTypeIcon(type,b){
 type=this.types.get(type).name;
 if(!type)type='???';
 var sanitizedType=type.replace(/\?/g,'%3f');
-return"<img src=\""+Dex.resourcePrefix+"sprites/types/"+sanitizedType+".png\" alt=\""+type+"\" height=\"14\" width=\"32\" class=\"pixelated"+(b?' b':'')+"\" />";
+return"<img src=\"https://raw.githubusercontent.com/sprites/master/sprites/types/"+sanitizedType+".png\" alt=\""+type+"\" height=\"14\" width=\"32\" class=\"pixelated"+(b?' b':'')+"\" />";
 };_proto2.
 
 getCategoryIcon=function getCategoryIcon(category){
@@ -818,7 +818,7 @@ default:
 sanitizedCategory='undefined';
 break;
 }
-return"<img src=\""+Dex.resourcePrefix+"sprites/categories/"+sanitizedCategory+".png\" alt=\""+sanitizedCategory+"\" height=\"14\" width=\"32\" class=\"pixelated\" />";
+return"<img src=\"https://raw.githubusercontent.com/sprites/master/sprites/categories/"+sanitizedCategory+".png\" alt=\""+sanitizedCategory+"\" height=\"14\" width=\"32\" class=\"pixelated\" />";
 };_proto2.
 
 getPokeballs=function getPokeballs(){
