@@ -795,7 +795,7 @@ if((_item=item)!=null&&_item.spritenum)num=item.spritenum;
 
 var top=Math.floor(num/16)*24;
 var left=num%16*24;
-return'background:transparent url('+Dex.resourcePrefix+'sprites/itemicons-sheet.png?v1) no-repeat scroll -'+left+'px -'+top+'px';
+return'background:transparent url(http://raw.githubusercontent.com/sprites/itemicons-sheet.png?v1) no-repeat scroll -'+left+'px -'+top+'px';
 };_proto2.
 
 getTypeIcon=function getTypeIcon(type,b){

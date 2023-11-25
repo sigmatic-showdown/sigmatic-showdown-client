@@ -584,7 +584,7 @@ bg='sprites/gen6bgs/'+BattleBackdrops[this.numericId%BattleBackdrops.length];
 
 this.backdropImage=bg;
 if(this.$bg){
-this.$bg.css('background-image','url('+Dex.resourcePrefix+''+this.backdropImage+')');
+this.$bg.css('background-image','url(http://raw.githubusercontent.com/'+this.backdropImage+')');
 }
 };_proto.
 
@@ -840,9 +840,9 @@ if(pokemon.level!==100){
 buf2+='<span style="text-shadow:#000 1px 1px 0,#000 1px -1px 0,#000 -1px 1px 0,#000 -1px -1px 0"><small>L</small>'+pokemon.level+'</span>';
 }
 if(pokemon.item==='(mail)'){
-buf2+=' <img src="'+Dex.resourcePrefix+'fx/mail.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
+buf2+=' <img src="http://raw.githubusercontent.com/fx/mail.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
 }else if(pokemon.item){
-buf2+=' <img src="'+Dex.resourcePrefix+'fx/item.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
+buf2+=' <img src="http://raw.githubusercontent.com/fx/item.png" width="8" height="10" alt="F" style="margin-bottom:-1px" />';
 }
 buf2+='</div>';
 }
@@ -1368,7 +1368,7 @@ this.addSideCondition(siden,_id4,true);
 
 typeAnim=function typeAnim(pokemon,types){
 var result=BattleLog.escapeHTML(types).split('/').map(function(type){return(
-'<img src="'+Dex.resourcePrefix+'sprites/types/'+type+'.png" alt="'+type+'" class="pixelated" />');}
+'<img src="http://raw.githubusercontent.com/sprites/types/'+type+'.png" alt="'+type+'" class="pixelated" />');}
 ).join(' ');
 this.resultAnim(pokemon,result,'neutral');
 };_proto.
@@ -2780,12 +2780,12 @@ status+="<img src=\""+Dex.resourcePrefix+"sprites/types/"+encodeURIComponent(pok
 }else if(pokemon.volatiles.typechange&&pokemon.volatiles.typechange[1]){
 var types=pokemon.volatiles.typechange[1].split('/');for(var _i32=0;_i32<
 types.length;_i32++){var type=types[_i32];
-status+='<img src="'+Dex.resourcePrefix+'sprites/types/'+encodeURIComponent(type)+'.png" alt="'+type+'" class="pixelated" /> ';
+status+='<img src="http://raw.githubusercontent.com/sprites/types/'+encodeURIComponent(type)+'.png" alt="'+type+'" class="pixelated" /> ';
 }
 }
 if(pokemon.volatiles.typeadd){
 var _type=pokemon.volatiles.typeadd[1];
-status+='+<img src="'+Dex.resourcePrefix+'sprites/types/'+_type+'.png" alt="'+_type+'" class="pixelated" /> ';
+status+='+<img src="http://raw.githubusercontent.com/sprites/types/'+_type+'.png" alt="'+_type+'" class="pixelated" /> ';
 }
 for(var stat in pokemon.boosts){
 if(pokemon.boosts[stat]){
