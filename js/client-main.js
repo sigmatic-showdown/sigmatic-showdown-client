@@ -233,7 +233,7 @@ if(this.byKey[team.key])team.key=this.getKey(team.name);
 this.byKey[team.key]=team;
 };_proto2.
 unpackOldBuffer=function unpackOldBuffer(buffer){
-alert("Your team storage format is too old for PS. You'll need to upgrade it at https://"+Config.routes.client+"/recoverteams.html");
+alert("Your team storage format is too old for PS. You'll need to upgrade it at http://raw.githubusercontent.com/recoverteams.html");
 this.list=[];
 return;
 };_proto2.

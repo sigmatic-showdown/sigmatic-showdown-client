@@ -220,8 +220,8 @@ render=function render(){var _this2=this;
 return preact.h("div",{id:"header","class":"header",style:this.props.style},
 preact.h("img",{
 "class":"logo",
-src:"https://"+Config.routes.client+"/pokemonshowdownbeta.png",
-srcset:"https://"+Config.routes.client+"/pokemonshowdownbeta@2x.png 2x",
+src:"http://raw.githubusercontent.com/pokemonshowdownbeta.png",
+srcset:"http://raw.githubusercontent.com/pokemonshowdownbeta@2x.png 2x",
 alt:"Pok\xE9mon Showdown! (beta)",
 width:"146",height:"44"}
 ),

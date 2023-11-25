@@ -711,7 +711,7 @@ opacity:1,
 time:1550
 },'decel');
 }
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-hail.png')",750,1,800);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-hail.png')",750,1,800);
 }
 },
 sandstorm:{
@@ -1533,7 +1533,7 @@ opacity:0.2
 orderup:{
 anim:function(scene,_ref32){var attacker=_ref32[0],defender=_ref32[1];
 var tatsugiriSprite={
-url:"https://"+Config.routes.client+"/sprites/gen5/tatsugiri"+['-droopy','-stretchy',''][Math.floor(Math.random()*3)]+".png",
+url:"http://raw.githubusercontent.com/sprites/gen5/tatsugiri"+['-droopy','-stretchy',''][Math.floor(Math.random()*3)]+".png",
 w:96,
 h:96
 };
@@ -3569,7 +3569,7 @@ anim:BattleOtherAnims.lightstatus.anim
 },
 morningsun:{
 anim:function(scene,_ref67){var attacker=_ref67[0],defender=_ref67[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-sunnyday.jpg')",700,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-sunnyday.jpg')",700,0.5);
 scene.showEffect('wisp',{
 x:attacker.x+40,
 y:attacker.y-40,
@@ -3622,7 +3622,7 @@ time:900
 },
 moonlight:{
 anim:function(scene,_ref68){var attacker=_ref68[0];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",800,0.6);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",800,0.6);
 scene.showEffect('moon',{
 x:attacker.x,
 y:attacker.y+150,
@@ -3705,7 +3705,7 @@ time:700
 },
 cosmicpower:{
 anim:function(scene,_ref69){var attacker=_ref69[0];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",600,0.6);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",600,0.6);
 scene.showEffect('wisp',{
 x:attacker.x+40,
 y:attacker.y-40,
@@ -5545,7 +5545,7 @@ anim:BattleOtherAnims.contactattack.anim
 },
 seismictoss:{
 anim:function(scene,_ref106){var attacker=_ref106[0],defender=_ref106[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",500,0.6,300);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",500,0.6,300);
 scene.showEffect('wisp',{
 x:defender.x,
 y:defender.y+10,
@@ -8377,7 +8377,7 @@ time:300
 },
 meteormash:{
 anim:function(scene,_ref145){var attacker=_ref145[0],defender=_ref145[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",1000,0.4);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",1000,0.4);
 scene.showEffect(attacker.sp,{
 x:attacker.leftof(20),
 y:attacker.y,
@@ -18791,7 +18791,7 @@ time:300
 },
 psystrike:{
 anim:function(scene,_ref284){var attacker=_ref284[0],defender=_ref284[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-psychicterrain.png')",950,0.6);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-psychicterrain.png')",950,0.6);
 scene.showEffect('poisonwisp',{
 x:defender.x-100,
 y:defender.y,
@@ -19653,7 +19653,7 @@ time:300
 },
 moonblast:{
 anim:function(scene,_ref297){var attacker=_ref297[0],defender=_ref297[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",800,0.6);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",800,0.6);
 scene.showEffect('moon',{
 x:attacker.x,
 y:attacker.y,
@@ -19958,7 +19958,7 @@ time:1000
 },
 wish:{
 anim:function(scene,_ref303){var attacker=_ref303[0];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",600,0.4);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",600,0.4);
 
 scene.showEffect('wisp',{
 x:attacker.x,
@@ -19972,7 +19972,7 @@ opacity:0
 },'accel');
 },
 residualAnim:function(scene,_ref304){var attacker=_ref304[0];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",600,0.4);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",600,0.4);
 
 scene.showEffect('wisp',{
 x:attacker.x,
@@ -21221,7 +21221,7 @@ time:400
 },
 dracometeor:{
 anim:function(scene,_ref325){var attacker=_ref325[0],defender=_ref325[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",1100,0.8);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",1100,0.8);
 scene.showEffect('flareball',{
 x:defender.leftof(-200),
 y:defender.y+175,
@@ -22726,7 +22726,7 @@ var xstep=(defender.x-attacker.x)/5;
 var ystep=(defender.x-200-attacker.x)/5;
 var zstep=(defender.z-attacker.z)/5;
 
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-sunnyday.jpg')",900,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-sunnyday.jpg')",900,0.5);
 
 for(var i=0;i<5;i++){
 scene.showEffect('energyball',{
@@ -22870,7 +22870,7 @@ var xstep=0;
 var ystep=20;
 var zstep=0;
 
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-sunnyday.jpg')",900,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-sunnyday.jpg')",900,0.5);
 
 scene.showEffect('sword',{
 x:attacker.leftof(10),
@@ -23155,7 +23155,7 @@ var xstep=(defender.x-attacker.x)/5;
 var ystep=(defender.x-200-attacker.x)/5;
 var zstep=(defender.z-attacker.z)/5;
 
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-sandstorm.png')",900,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-sandstorm.png')",900,0.5);
 
 for(var i=0;i<5;i++){
 scene.showEffect('mudwisp',{
@@ -23355,7 +23355,7 @@ opacity:0.3
 },
 sheercold:{
 anim:function(scene,_ref346){var attacker=_ref346[0],defender=_ref346[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/sprites/gen6bgs/bg-icecave.jpg')",1000,0.6);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/sprites/gen6bgs/bg-icecave.jpg')",1000,0.6);
 scene.showEffect('icicle',{
 x:defender.x,
 y:defender.y,
@@ -23373,7 +23373,7 @@ time:800
 },
 glaciallance:{
 anim:function(scene,_ref347){var attacker=_ref347[0],defenders=_ref347.slice(1);
-scene.backgroundEffect("url('https://"+Config.routes.client+"/sprites/gen6bgs/bg-icecave.jpg')",1000,0.6);for(var _i56=0;_i56<
+scene.backgroundEffect("url('http://raw.githubusercontent.com/sprites/gen6bgs/bg-icecave.jpg')",1000,0.6);for(var _i56=0;_i56<
 defenders.length;_i56++){var defender=defenders[_i56];
 scene.showEffect('icicle',{
 x:defender.x,
@@ -25688,7 +25688,7 @@ opacity:0.6
 },
 dragonascent:{
 anim:function(scene,_ref374){var attacker=_ref374[0],defender=_ref374[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",1000,0.7);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",1000,0.7);
 scene.showEffect('iceball',{
 x:attacker.leftof(-25),
 y:attacker.y+250,
@@ -29179,7 +29179,7 @@ time:100
 },
 plasmafists:{
 anim:function(scene,_ref411){var attacker=_ref411[0],defender=_ref411[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/sprites/gen6bgs/bg-earthycave.jpg')",2000,1);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/sprites/gen6bgs/bg-earthycave.jpg')",2000,1);
 scene.backgroundEffect('#000000',1000,0.6);
 scene.backgroundEffect('#FFFFFF',300,0.6,1000);
 scene.showEffect('electroball',{
@@ -29422,7 +29422,7 @@ time:100
 },
 collisioncourse:{
 anim:function(scene,_ref412){var attacker=_ref412[0],defender=_ref412[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-sunnyday.jpg')",1300,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-sunnyday.jpg')",1300,0.5);
 scene.showEffect(attacker.sp,{
 x:attacker.x,
 y:attacker.y,
@@ -29568,7 +29568,7 @@ time:300
 },
 electrodrift:{
 anim:function(scene,_ref413){var attacker=_ref413[0],defender=_ref413[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-electricterrain.png')",1300,0.5);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-electricterrain.png')",1300,0.5);
 scene.showEffect(attacker.sp,{
 x:attacker.x,
 y:attacker.y,
@@ -33591,7 +33591,7 @@ time:2125
 oceanicoperetta:{
 anim:function(scene,_ref433){var attacker=_ref433[0],defender=_ref433[1];
 scene.backgroundEffect('linear-gradient(#000000 20%, #0000DD)',2700,0.4);
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-raindance.jpg')",700,0.2,2000);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-raindance.jpg')",700,0.2,2000);
 scene.showEffect('iceball',{
 x:attacker.x,
 y:attacker.y+120,
@@ -33914,7 +33914,7 @@ time:300
 },
 splinteredstormshards:{
 anim:function(scene,_ref436){var attacker=_ref436[0],defender=_ref436[1];
-scene.backgroundEffect("url('https://"+Config.routes.client+"/sprites/gen6bgs/bg-earthycave.jpg')",2700,0.8,300);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/sprites/gen6bgs/bg-earthycave.jpg')",2700,0.8,300);
 scene.backgroundEffect('linear-gradient(#FFC720 15%, #421800)',2700,0.7);
 scene.backgroundEffect('#ffffff',400,0.6,2500);
 scene.showEffect('rock3',{
@@ -34637,7 +34637,7 @@ time:200
 }
 var defender=defenders[1]||defenders[0];
 scene.backgroundEffect('#000000',300,0.9);
-scene.backgroundEffect("url('https://"+Config.routes.client+"/sprites/gen6bgs/bg-earthycave.jpg')",2000,0.7,300);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/sprites/gen6bgs/bg-earthycave.jpg')",2000,0.7,300);
 scene.backgroundEffect('linear-gradient(#FB5C1E 20%, #3F1D0F',2000,0.6,300);
 scene.backgroundEffect('#FFFFFF',1000,0.9,2200);
 scene.showEffect('shine',{
@@ -35309,8 +35309,8 @@ var xstep=(defender.x-attacker.x)/5;
 var ystep=(defender.x-200-attacker.x)/5;
 var zstep=(defender.z-attacker.z)/5;
 
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/weather-trickroom.png')",700,1);
-scene.backgroundEffect("url('https://"+Config.routes.client+"/fx/bg-space.jpg')",2500,1,700);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/weather-trickroom.png')",700,1);
+scene.backgroundEffect("url('http://raw.githubusercontent.com/fx/bg-space.jpg')",2500,1,700);
 scene.backgroundEffect('#FFFFFF',1500,1,2500);
 
 scene.showEffect('flareball',{
