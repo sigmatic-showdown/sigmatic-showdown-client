@@ -598,7 +598,7 @@
 					buf += '<p>We played the same thing, so it\'s a tie.</p>';
 				}
 				if (!this.rpsScores || !this.rpsScores.length) {
-					this.rpsScores = ['pi', '$3.50', '9.80665 m/s<sup>2</sup>', '28°C', '百万点', '<i class="fa fa-bitcoin"></i>0.0000174', '<s>priceless</s> <i class="fa fa-cc-mastercard"></i> MasterCard', 'sigmatic-showdown.win', 'C&minus;, see me after class'];
+					this.rpsScores = ['pi', '$3.50', '9.80665 m/s<sup>2</sup>', '28°C', '百万点', '<i class="fa fa-bitcoin"></i>0.0000174', '<s>priceless</s> <i class="fa fa-cc-mastercard"></i> MasterCard', 'showdown-client-dd5296441151.herokuapp.com', 'C&minus;, see me after class'];
 				}
 				var score = this.rpsScores.splice(Math.floor(Math.random() * this.rpsScores.length), 1)[0];
 				buf += '<p>Score: ' + score + '</p>';

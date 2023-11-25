@@ -1,6 +1,6 @@
 {
-    "root": "sigmatic-showdown.win",
-    "client": "sigmatic-showdown.win",
+    "root": "showdown-client-dd5296441151.herokuapp.com",
+    "client": "showdown-client-dd5296441151.herokuapp.com",
     "dex": "dex.pokemonshowdown.com",
     "replays": "replay.pokemonshowdown.com",
     "users": "pokemonshowdown.com/users"

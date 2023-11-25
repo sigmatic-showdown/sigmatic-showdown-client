@@ -28,27 +28,27 @@ function requireScript(url) {
 	document.head.appendChild(scriptEl);
 }
 
-linkStyle('https://sigmatic-showdown.win/style/font-awesome.css?');
-linkStyle('https://sigmatic-showdown.win/style/battle.css?a7');
-linkStyle('https://sigmatic-showdown.win/style/replay.css?a7');
-linkStyle('https://sigmatic-showdown.win/style/utilichart.css?a7');
+linkStyle('https://showdown-client-dd5296441151.herokuapp.com/style/font-awesome.css?');
+linkStyle('https://showdown-client-dd5296441151.herokuapp.com/style/battle.css?a7');
+linkStyle('https://showdown-client-dd5296441151.herokuapp.com/style/replay.css?a7');
+linkStyle('https://showdown-client-dd5296441151.herokuapp.com/style/utilichart.css?a7');
 
-requireScript('https://sigmatic-showdown.win/js/lib/ps-polyfill.js');
-requireScript('https://sigmatic-showdown.win/config/config.js?a7');
-requireScript('https://sigmatic-showdown.win/js/lib/jquery-1.11.0.min.js');
-requireScript('https://sigmatic-showdown.win/js/lib/html-sanitizer-minified.js');
-requireScript('https://sigmatic-showdown.win/js/battle-sound.js');
-requireScript('https://sigmatic-showdown.win/js/battledata.js?a7');
-requireScript('https://sigmatic-showdown.win/data/pokedex-mini.js?a7');
-requireScript('https://sigmatic-showdown.win/data/pokedex-mini-bw.js?a7');
-requireScript('https://sigmatic-showdown.win/data/graphics.js?a7');
-requireScript('https://sigmatic-showdown.win/data/pokedex.js?a7');
-requireScript('https://sigmatic-showdown.win/data/moves.js?a7');
-requireScript('https://sigmatic-showdown.win/data/abilities.js?a7');
-requireScript('https://sigmatic-showdown.win/data/items.js?a7');
-requireScript('https://sigmatic-showdown.win/data/teambuilder-tables.js?a7');
-requireScript('https://sigmatic-showdown.win/js/battle-tooltips.js?a7');
-requireScript('https://sigmatic-showdown.win/js/battle.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/lib/ps-polyfill.js');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/config/config.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/lib/jquery-1.11.0.min.js');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/lib/html-sanitizer-minified.js');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/battle-sound.js');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/battledata.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/pokedex-mini.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/pokedex-mini-bw.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/graphics.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/pokedex.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/moves.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/abilities.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/items.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/data/teambuilder-tables.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/battle-tooltips.js?a7');
+requireScript('https://showdown-client-dd5296441151.herokuapp.com/js/battle.js?a7');
 
 var Replays = {
 	battle: null,

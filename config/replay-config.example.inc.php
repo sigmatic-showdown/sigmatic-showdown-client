@@ -1,7 +1,7 @@
 <?php
 
 $config_replay_database = [
-	'server' => 'sigmatic-showdown.win',
+	'server' => 'showdown-client-dd5296441151.herokuapp.com',
 	'username' => 'username',
 	'password' => 'password',
 	'database' => 'replays',
