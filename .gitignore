@@ -3,7 +3,6 @@ node_modules/
 Thumbs.db
 npm-debug.log
 package-lock.json
-/config/
 /vendor/
 /caches/
 
