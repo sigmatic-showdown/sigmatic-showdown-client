@@ -36,8 +36,8 @@ Config.customcolors = {
 Config.version = "0.11.2 (5a34be3a)";
 
 Config.routes = {
-	root: '127.0.0.1',
-	client: '127.0.0.1',
+	root: 'sigmatic-showdown.win',
+	client: 'sigmatic-showdown.win',
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',

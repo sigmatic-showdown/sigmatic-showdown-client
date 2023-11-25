@@ -1,7 +1,7 @@
 <?php
 
 $config_replay_database = [
-	'server' => '127.0.0.1',
+	'server' => 'sigmatic-showdown.win',
 	'username' => 'username',
 	'password' => 'password',
 	'database' => 'replays',
