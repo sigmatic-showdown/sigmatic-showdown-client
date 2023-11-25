@@ -19,7 +19,7 @@ Config.whitelist = [
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
 	id: 'showdown',
-	host: 'showdown-client-dd5296441151.herokuapp.com',
+	host: 'sigmatic-showdown.win',
 	port: 443,
 	httpport: 8000,
 	altport: 80,
